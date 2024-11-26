@@ -8,6 +8,8 @@ We will be using the computer vision techniques of OpenCV to build this project.
 Here Colour Detection and tracking is used in order to achieve the objective. The colour marker in detected and a mask is produced. It includes the further steps of morphological operations on the mask produced which are Erosion and Dilation. Erosion reduces the impurities present in the mask and dilation further restores the eroded main mask.
 
 Algorithm
+
+
 Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 Prepare the canvas frame and put the respective ink buttons on it. 3.. Adjust the trackbar values for finding the mask of coloured marker.
 Preprocess the mask with morphological operations.(Erotion and dilation)
